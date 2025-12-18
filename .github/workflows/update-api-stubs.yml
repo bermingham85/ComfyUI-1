@@ -34,7 +34,7 @@ jobs:
       
       - name: Generate API models
         run: |
-          datamodel-codegen --use-subclass-enum --input filtered-openapi.yaml --output comfy_api_nodes/apis --output-model-type pydantic_v2.BaseModel
+          datamodel-codegen --use-subclass-enum --input filtered-openapi.yaml --output comfy_api_nodes/apis/__init__.py --output-model-type pydantic_v2.BaseModel
       
       - name: Check for changes
         id: git-check
