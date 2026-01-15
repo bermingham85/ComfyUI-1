@@ -1,0 +1,21 @@
+## ComfyUI-Manager: installing dependencies done.
+[2026-01-04 05:41:03.082] ** ComfyUI startup time: 2026-01-04 05:41:03.082
+[2026-01-04 05:41:03.083] ** Platform: Windows
+[2026-01-04 05:41:03.083] ** Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+[2026-01-04 05:41:03.083] ** Python executable: C:\Program Files\Python311\python.exe
+[2026-01-04 05:41:03.083] ** ComfyUI Path: C:\Users\bermi\Projects\ComfyUI
+[2026-01-04 05:41:03.084] ** ComfyUI Base Folder Path: C:\Users\bermi\Projects\ComfyUI
+[2026-01-04 05:41:03.084] ** User directory: C:\Users\bermi\Projects\ComfyUI\user
+[2026-01-04 05:41:03.085] ** ComfyUI-Manager config path: C:\Users\bermi\Projects\ComfyUI\user\default\ComfyUI-Manager\config.ini
+[2026-01-04 05:41:03.086] ** Log path: C:\Users\bermi\Projects\ComfyUI\user\comfyui.log
+[ComfyUI-Manager] PyTorch is not installed
+[2026-01-04 05:41:11.531] 
+Prestartup times for custom nodes:
+[2026-01-04 05:41:11.531]   27.6 seconds: C:\Users\bermi\Projects\ComfyUI\custom_nodes\ComfyUI-Manager
+[2026-01-04 05:41:11.531] 
+[2026-01-04 05:41:11.555] Traceback (most recent call last):
+[2026-01-04 05:41:11.556]   File "C:\Users\bermi\Projects\ComfyUI\main.py", line 147, in <module>
+[2026-01-04 05:41:11.557]     import comfy.utils
+[2026-01-04 05:41:11.558]   File "C:\Users\bermi\Projects\ComfyUI\comfy\utils.py", line 20, in <module>
+[2026-01-04 05:41:11.576]     import torch
+[2026-01-04 05:41:11.577] ModuleNotFoundError: No module named 'torch'

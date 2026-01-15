@@ -1,0 +1,32 @@
+## ComfyUI-Manager: installing dependencies. (GitPython)
+[2026-01-04 04:08:43.782] ## ComfyUI-Manager: installing dependencies done.
+[2026-01-04 04:08:43.782] ** ComfyUI startup time: 2026-01-04 04:08:43.782
+[2026-01-04 04:08:43.783] ** Platform: Windows
+[2026-01-04 04:08:43.783] ** Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+[2026-01-04 04:08:43.783] ** Python executable: C:\Program Files\Python311\python.exe
+[2026-01-04 04:08:43.783] ** ComfyUI Path: C:\Users\bermi\Projects\ComfyUI
+[2026-01-04 04:08:43.784] ** ComfyUI Base Folder Path: C:\Users\bermi\Projects\ComfyUI
+[2026-01-04 04:08:43.785] ** User directory: C:\Users\bermi\Projects\ComfyUI\user
+[2026-01-04 04:08:43.785] ** ComfyUI-Manager config path: C:\Users\bermi\Projects\ComfyUI\user\default\ComfyUI-Manager\config.ini
+[2026-01-04 04:08:43.785] ** Log path: C:\Users\bermi\Projects\ComfyUI\user\comfyui.log
+
+Prestartup times for custom nodes:
+[2026-01-04 04:08:57.516]   97.9 seconds: C:\Users\bermi\Projects\ComfyUI\custom_nodes\ComfyUI-Manager
+[2026-01-04 04:08:57.517] 
+[2026-01-04 04:09:17.801] Checkpoint files will always be loaded safely.
+[2026-01-04 04:09:18.013] Traceback (most recent call last):
+[2026-01-04 04:09:18.013]   File "C:\Users\bermi\Projects\ComfyUI\main.py", line 149, in <module>
+[2026-01-04 04:09:18.016]     import execution
+[2026-01-04 04:09:18.016]   File "C:\Users\bermi\Projects\ComfyUI\execution.py", line 15, in <module>
+[2026-01-04 04:09:18.046]     import comfy.model_management
+[2026-01-04 04:09:18.049]   File "C:\Users\bermi\Projects\ComfyUI\comfy\model_management.py", line 238, in <module>
+[2026-01-04 04:09:18.109]     total_vram = get_total_memory(get_torch_device()) / (1024 * 1024)
+[2026-01-04 04:09:18.109]                                   ^^^^^^^^^^^^^^^^^^
+[2026-01-04 04:09:18.128]   File "C:\Users\bermi\Projects\ComfyUI\comfy\model_management.py", line 188, in get_torch_device
+[2026-01-04 04:09:18.130]     return torch.device(torch.cuda.current_device())
+[2026-01-04 04:09:18.131]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-04 04:09:18.142]   File "C:\Users\bermi\AppData\Roaming\Python\Python311\site-packages\torch\cuda\__init__.py", line 971, in current_device
+[2026-01-04 04:09:18.143]     _lazy_init()
+[2026-01-04 04:09:18.144]   File "C:\Users\bermi\AppData\Roaming\Python\Python311\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+[2026-01-04 04:09:18.145]     raise AssertionError("Torch not compiled with CUDA enabled")
+[2026-01-04 04:09:18.146] AssertionError: Torch not compiled with CUDA enabled

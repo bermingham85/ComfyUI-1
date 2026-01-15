@@ -1,0 +1,89 @@
+## ComfyUI-Manager: installing dependencies done.
+[2026-01-04 06:08:17.270] ** ComfyUI startup time: 2026-01-04 06:08:17.270
+[2026-01-04 06:08:17.270] ** Platform: Windows
+[2026-01-04 06:08:17.270] ** Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+[2026-01-04 06:08:17.270] ** Python executable: C:\Program Files\Python311\python.exe
+[2026-01-04 06:08:17.271] ** ComfyUI Path: C:\Users\bermi\Projects\ComfyUI
+[2026-01-04 06:08:17.271] ** ComfyUI Base Folder Path: C:\Users\bermi\Projects\ComfyUI
+[2026-01-04 06:08:17.271] ** User directory: C:\Users\bermi\Projects\ComfyUI\user
+[2026-01-04 06:08:17.271] ** ComfyUI-Manager config path: C:\Users\bermi\Projects\ComfyUI\user\default\ComfyUI-Manager\config.ini
+[2026-01-04 06:08:17.272] ** Log path: C:\Users\bermi\Projects\ComfyUI\user\comfyui.log
+
+Prestartup times for custom nodes:
+[2026-01-04 06:08:19.711]    6.0 seconds: C:\Users\bermi\Projects\ComfyUI\custom_nodes\ComfyUI-Manager
+[2026-01-04 06:08:19.711] 
+[2026-01-04 06:08:24.000] Checkpoint files will always be loaded safely.
+[2026-01-04 06:08:24.037] Total VRAM 32491 MB, total RAM 32491 MB
+[2026-01-04 06:08:24.037] pytorch version: 2.5.1+cu121
+[2026-01-04 06:08:24.040] Set vram state to: DISABLED
+[2026-01-04 06:08:24.040] Device: cpu
+[2026-01-04 06:08:32.455] Using sub quadratic optimization for attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2026-01-04 06:09:22.382] Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+[2026-01-04 06:09:22.382] ComfyUI version: 0.3.68
+[2026-01-04 06:09:22.521] ComfyUI frontend version: 1.28.8
+[2026-01-04 06:09:22.527] [Prompt Server] web root: C:\Users\bermi\AppData\Roaming\Python\Python311\site-packages\comfyui_frontend_package\static
+[2026-01-04 06:09:28.393] 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-01-04 06:09:28.394] [ComfyUI-Manager] ERROR: ComfyUI version is outdated!
+[2026-01-04 06:09:28.395]   - Most operations are blocked for security.
+[2026-01-04 06:09:28.396]   - ComfyUI update is still allowed.
+[2026-01-04 06:09:28.396]   - Please update ComfyUI to use Manager normally.
+[2026-01-04 06:09:28.398] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-01-04 06:09:28.398] 
+[2026-01-04 06:09:28.402] ### Loading: ComfyUI-Manager (V3.39)
+[2026-01-04 06:09:28.404] [ComfyUI-Manager] network_mode: public
+[2026-01-04 06:09:28.818] ### ComfyUI Version: v0.3.68-11-gdbbd4959 on 'main' | Released on '2025-12-18'
+[2026-01-04 06:09:29.430] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2026-01-04 06:09:29.469] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2026-01-04 06:09:29.547] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2026-01-04 06:09:29.747] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2026-01-04 06:09:30.056] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2026-01-04 06:09:30.318] [36;20m[C:\Users\bermi\Projects\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ckpts path: C:\Users\bermi\Projects\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2026-01-04 06:09:30.320] [36;20m[C:\Users\bermi\Projects\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2026-01-04 06:09:30.321] [36;20m[C:\Users\bermi\Projects\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'MIGraphXExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2026-01-04 06:09:33.184] C:\Users\bermi\Projects\ComfyUI\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2026-01-04 06:09:33.434] FETCH ComfyRegistry Data: 5/117
+[2026-01-04 06:09:34.434] 
+Import times for custom nodes:
+[2026-01-04 06:09:34.434]    0.0 seconds: C:\Users\bermi\Projects\ComfyUI\custom_nodes\websocket_image_save.py
+[2026-01-04 06:09:34.435]    0.4 seconds: C:\Users\bermi\Projects\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2026-01-04 06:09:34.435]    1.4 seconds: C:\Users\bermi\Projects\ComfyUI\custom_nodes\ComfyUI-Manager
+[2026-01-04 06:09:34.435]    4.6 seconds: C:\Users\bermi\Projects\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2026-01-04 06:09:34.435] 
+[2026-01-04 06:09:36.595] Context impl SQLiteImpl.
+[2026-01-04 06:09:36.596] Will assume non-transactional DDL.
+[2026-01-04 06:09:36.608] No target revision found.
+[2026-01-04 06:09:36.645] Starting server
+
+[2026-01-04 06:09:36.646] To see the GUI go to: http://0.0.0.0:8188
+[2026-01-04 06:09:37.330] FETCH ComfyRegistry Data: 10/117
+[2026-01-04 06:09:41.935] FETCH ComfyRegistry Data: 15/117
+[2026-01-04 06:09:45.427] FETCH ComfyRegistry Data: 20/117
+[2026-01-04 06:09:48.887] FETCH ComfyRegistry Data: 25/117
+[2026-01-04 06:09:52.355] FETCH ComfyRegistry Data: 30/117
+[2026-01-04 06:09:56.837] FETCH ComfyRegistry Data: 35/117
+[2026-01-04 06:10:00.307] FETCH ComfyRegistry Data: 40/117
+[2026-01-04 06:10:03.767] FETCH ComfyRegistry Data: 45/117
+[2026-01-04 06:10:07.207] FETCH ComfyRegistry Data: 50/117
+[2026-01-04 06:10:10.628] FETCH ComfyRegistry Data: 55/117
+[2026-01-04 06:10:14.072] FETCH ComfyRegistry Data: 60/117
+[2026-01-04 06:10:17.564] FETCH ComfyRegistry Data: 65/117
+[2026-01-04 06:10:21.091] FETCH ComfyRegistry Data: 70/117
+[2026-01-04 06:10:24.539] FETCH ComfyRegistry Data: 75/117
+[2026-01-04 06:10:28.287] FETCH ComfyRegistry Data: 80/117
+[2026-01-04 06:10:31.832] FETCH ComfyRegistry Data: 85/117
+[2026-01-04 06:10:36.088] FETCH ComfyRegistry Data: 90/117
+[2026-01-04 06:10:39.578] FETCH ComfyRegistry Data: 95/117
+[2026-01-04 06:10:43.061] FETCH ComfyRegistry Data: 100/117
+[2026-01-04 06:10:46.883] FETCH ComfyRegistry Data: 105/117
+[2026-01-04 06:10:50.658] FETCH ComfyRegistry Data: 110/117
+[2026-01-04 06:10:54.124] FETCH ComfyRegistry Data: 115/117
+[2026-01-04 06:10:55.984] FETCH ComfyRegistry Data [DONE]
+[2026-01-04 06:10:56.630] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2026-01-04 06:10:56.742] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2026-01-04 06:10:57.136] [ComfyUI-Manager] All startup tasks have been completed.
+[2026-01-04 06:14:20.915] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-01-04 06:14:20.919] [DEPRECATION WARNING] Detected import of deprecated legacy API: /extensions/core/groupNode.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-01-04 06:14:21.462] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/buttonGroup.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-01-04 06:14:21.497] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/button.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.

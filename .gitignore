@@ -1,0 +1,30 @@
+# Models (too large for git)
+models/
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
+
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Output and temp
+output/
+temp/
+input/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

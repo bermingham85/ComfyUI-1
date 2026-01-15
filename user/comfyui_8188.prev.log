@@ -1,0 +1,31 @@
+## ComfyUI-Manager: installing dependencies done.
+[2026-01-04 06:07:02.716] ** ComfyUI startup time: 2026-01-04 06:07:02.716
+[2026-01-04 06:07:02.716] ** Platform: Windows
+[2026-01-04 06:07:02.716] ** Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+[2026-01-04 06:07:02.716] ** Python executable: C:\Program Files\Python311\python.exe
+[2026-01-04 06:07:02.716] ** ComfyUI Path: C:\Users\bermi\Projects\ComfyUI
+[2026-01-04 06:07:02.716] ** ComfyUI Base Folder Path: C:\Users\bermi\Projects\ComfyUI
+[2026-01-04 06:07:02.717] ** User directory: C:\Users\bermi\Projects\ComfyUI\user
+[2026-01-04 06:07:02.717] ** ComfyUI-Manager config path: C:\Users\bermi\Projects\ComfyUI\user\default\ComfyUI-Manager\config.ini
+[2026-01-04 06:07:02.717] ** Log path: C:\Users\bermi\Projects\ComfyUI\user\comfyui.log
+
+Prestartup times for custom nodes:
+[2026-01-04 06:07:05.450]    6.5 seconds: C:\Users\bermi\Projects\ComfyUI\custom_nodes\ComfyUI-Manager
+[2026-01-04 06:07:05.450] 
+[2026-01-04 06:07:17.926] Checkpoint files will always be loaded safely.
+[2026-01-04 06:07:18.030] Traceback (most recent call last):
+[2026-01-04 06:07:18.030]   File "C:\Users\bermi\Projects\ComfyUI\main.py", line 149, in <module>
+[2026-01-04 06:07:18.033]     import execution
+[2026-01-04 06:07:18.034]   File "C:\Users\bermi\Projects\ComfyUI\execution.py", line 15, in <module>
+[2026-01-04 06:07:18.050]     import comfy.model_management
+[2026-01-04 06:07:18.052]   File "C:\Users\bermi\Projects\ComfyUI\comfy\model_management.py", line 238, in <module>
+[2026-01-04 06:07:18.068]     total_vram = get_total_memory(get_torch_device()) / (1024 * 1024)
+[2026-01-04 06:07:18.070]                                   ^^^^^^^^^^^^^^^^^^
+[2026-01-04 06:07:18.084]   File "C:\Users\bermi\Projects\ComfyUI\comfy\model_management.py", line 188, in get_torch_device
+[2026-01-04 06:07:18.085]     return torch.device(torch.cuda.current_device())
+[2026-01-04 06:07:18.087]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-01-04 06:07:18.100]   File "C:\Users\bermi\AppData\Roaming\Python\Python311\site-packages\torch\cuda\__init__.py", line 940, in current_device
+[2026-01-04 06:07:18.101]     _lazy_init()
+[2026-01-04 06:07:18.103]   File "C:\Users\bermi\AppData\Roaming\Python\Python311\site-packages\torch\cuda\__init__.py", line 319, in _lazy_init
+[2026-01-04 06:07:18.104]     torch._C._cuda_init()
+[2026-01-04 06:07:18.106] RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
